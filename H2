@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+        <caption><h1>醫美整形外科調查表</h1></caption>
+        <table border="0">
+            <tr>
+                <td>姓名</td>
+                <td><input type="text"></td>
+                <td>出身年月</td>
+                <td><input type="text"></td>
+                <td>職業</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>婚姻狀況</td>
+                <td><input type="text"></td>
+                <td>聯繫方式</td>
+                <td><input type="text"></td>
+                <td>學歷</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>地址</td>
+                <td colspan="5"><textarea name="地址"></textarea><br></td>
+            </tr>
+            <tr>
+                <td>有無產品過敏或換膚過敏</td>
+                <td colspan="3"><input type="text"></td>
+                <td>皮膚類型</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>皮膚屬性</td>
+                <td>
+                    <form>
+                        <select name="皮膚屬性">
+                            <option value="請選擇">請選擇</option>
+                            <option value="中">中</option>
+                            <option value="乾">乾</option>
+                            <option value="油">油</option>
+                            <option value="混和">混和</option>
+                            <option value="敏感">敏感</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>皮膚彈性</td>
+                <td>
+                    <form>
+                        <select name="皮膚彈性">
+                            <option value="請選擇">請選擇</option>
+                            <option value="良好">良好</option>
+                            <option value="一般">一般</option>
+                            <option value="差">差</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>油脂分泌</td>
+                <td>
+                    <form>
+                        <select name="油脂分泌">
+                            <option value="請選擇">請選擇</option>
+                            <option value="良好">良好</option>
+                            <option value="一般">一般</option>
+                            <option value="差">差</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>濕潤度</td>
+                <td>
+                    <form>
+                        <select name="濕潤度">
+                            <option value="請選擇">請選擇</option>
+                            <option value="良好">良好</option>
+                            <option value="一般">一般</option>
+                            <option value="差">差</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>皮膚問題</td>
+                <td>
+                    <form>
+                        <select name="皮膚問題">
+                            <option value="請選擇">請選擇</option>
+                            <option value="沉雀斑">沉雀斑</option>
+                            <option value="淺雀斑">淺雀斑</option>
+                            <option value="沉黃褐斑">沉黃褐斑</option>
+                            <option value="淺黃褐斑">淺黃褐斑</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>眼部情況</td>
+                <td>
+                    <form>
+                        <select name="眼部情況">
+                            <option value="請選擇">請選擇</option>
+                            <option value="眼部鬆弛">眼部鬆弛</option>
+                            <option value="上眼水腫">上眼水腫</option>
+                            <option value="黑眼圈">黑眼圈</option>
+                            <option value="膜袋">膜袋</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>勁部情況</td>
+                <td>
+                    <form>
+                        <select name="勁部情況">
+                            <option value="請選擇">請選擇</option>
+                            <option value="肌肉鬆弛">肌肉鬆弛</option>
+                            <option value="嚴重雙下巴">嚴重雙下巴</option>
+                            <option value="勁紋過多">勁紋過多</option>
+                            <option value="皺紋">皺紋</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>身體狀況</td>
+                <td colspan="5"><textarea name="Content"></textarea><br></td>
+            </tr>
+            <tr>
+                <td>顧客有無過敏史</td>
+                <td>
+                    <form>
+                        <select name="顧客有無過敏史">
+                            <option value="請選擇">請選擇</option>
+                            <option value="有">有</option>
+                            <option value="無">無</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>近期有無服藥史</td>
+                <td>
+                    <form>
+                        <select name="近期有無服藥史">
+                            <option value="請選擇">請選擇</option>
+                            <option value="有">有</option>
+                            <option value="無">無</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>有無不良嗜好</td>
+                <td>
+                    <form>
+                        <select name="有無不良嗜好">
+                            <option value="請選擇">請選擇</option>
+                            <option value="吸菸">吸菸</option>
+                            <option value="喝酒">喝酒</option>
+                            <option value="兩者皆有">兩者皆有</option>
+                            <option value="無">無</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>專家建議</td>
+                <td colspan="5"><textarea name="專家建議"></textarea><br></td>
+            </tr>
+        </table>
+</body>
+</html>
